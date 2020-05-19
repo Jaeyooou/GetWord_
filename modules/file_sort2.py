@@ -66,7 +66,7 @@ def runaway():
     ws['A1'] = '문서명'  # header
     ws['B1'] = '1차 최종'
 
-    for i in range(10):
+    for i in range(N):
         ws.cell(row=i + 2, column=1).value = File_Name[i]  # 문서명 기입
         '''for w in Position:
             if w in str(Position_Data[i]):
